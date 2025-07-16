@@ -26,4 +26,12 @@ export const projects = [
     github: "https://github.com/AGENTELVIS/Futbuz",
     tech: ["React", "APIFootball"],
   },
+  {
+    id: 4,
+    name: "Portfolio",
+    description: "My Personal portfolio.",
+    image: "/images/fininsight.png",
+    github: "https://github.com/AGENTELVIS/portfolio",
+    tech: ["Nextjs"],
+  },
 ];
