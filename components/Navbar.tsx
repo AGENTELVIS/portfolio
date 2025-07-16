@@ -2,7 +2,6 @@
 
 "use client";
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { User, FolderOpen, Mail, Star } from "lucide-react";
 
@@ -14,7 +13,6 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
