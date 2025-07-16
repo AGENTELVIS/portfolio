@@ -25,7 +25,7 @@ export default function About() {
         viewport={{ once: true }}
         className="text-lg sm:text-xl max-w-3xl text-center leading-relaxed"
       >
-        I recently completed my <span className="font-semibold text-indigo-500">Bachelor's degree in Computer Applications (BCA)</span>,
+        I recently completed my <span className="font-semibold text-indigo-500">Bachelor&apos;s degree in Computer Applications &lsquo;BCA&rsquo;</span>,
         during which I explored full-stack development and built hands-on projects. I am passionate about clean user interfaces, performance,
         and solving real-world problems with code. Currently, I am seeking an <span className="font-semibold">internship</span> or
         <span className="font-semibold"> entry-level opportunity</span> where I can contribute, learn, and grow as a developer.

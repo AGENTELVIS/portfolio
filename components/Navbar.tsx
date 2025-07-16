@@ -15,15 +15,7 @@ const navLinks = [
 export default function Navbar() {
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [cursorPos, setCursorPos] = useState({ x: 0, y: 0 });
 
-const handleMouseMove = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-  const rect = e.currentTarget.getBoundingClientRect();
-  setCursorPos({
-    x: e.clientX - rect.left,
-    y: e.clientY - rect.top,
-  });
-};
 
   useEffect(() => {
     const handleScroll = () => {

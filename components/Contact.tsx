@@ -35,7 +35,7 @@ export default function Contact() {
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
         <p className="mb-10 text-[var(--foreground)]/70 dark:text-[var(--foreground)]/80">
-          Feel free to reach out if you'd like to work together or have a question!
+          Feel free to reach out if you&apos;d like to work together or have a question!
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-6">
