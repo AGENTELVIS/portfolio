@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/providers";
 
 
 export const metadata = {
-  title: "My Portfolio",
+  title: "Pawan's Portfolio",
   description: "Showcasing my work",
 };
 
