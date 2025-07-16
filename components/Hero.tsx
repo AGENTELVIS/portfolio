@@ -1,14 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 export default function Hero() {
-  const [mounted, setMounted] = useState(false);
-
   useEffect(() => {
-    setMounted(true);
   }, []);
 
 
