@@ -37,6 +37,7 @@ export default function ProjectsSection() {
             <p className="text-sm text-gray-700 dark:text-gray-300 mb-4 ">
               {project.description}
             </p>
+            
             <div className="flex flex-wrap py-2 justify gap-4 mb-4">
               {project.tech.map((tech) => (
                 <span

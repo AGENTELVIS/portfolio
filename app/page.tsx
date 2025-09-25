@@ -8,7 +8,7 @@ import SkillsSection from "@/components/SkillsSection";
 export default function Home() {
   return (
     <main className="scroll-smooth">
-      <section id="hero" className=""><Hero /></section>
+      <section id="hero"><Hero /></section>
       <section id="about"><About /></section>
       <section id="projects"><ProjectsSection /></section>
       <section id="skills"><SkillsSection /></section>

@@ -1,6 +1,6 @@
 import { JSX } from "react";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiMongodb,SiTailwindcss, SiAppwrite, SiSupabase, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiExpress, SiShadcnui, SiGit, SiVercel, SiFigma, SiPostman, SiClerk } from "react-icons/si";
+import { SiMongodb,SiTailwindcss, SiAppwrite, SiSupabase, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiExpress, SiShadcnui, SiGit, SiVercel, SiFigma, SiPostman, SiClerk, SiSelenium } from "react-icons/si";
 import { RiNextjsFill } from 'react-icons/ri';
 import { VscVscode } from 'react-icons/vsc';
 
@@ -25,5 +25,6 @@ export const techIconMap: Record<string, JSX.Element> = {
   Postman: <SiPostman className="text-orange-400 w-5 h-5" />,
   "VS Code": <VscVscode className="text-blue-500 h-5 w-5" />,
   APIFootball: <img src="/apifootball.png" className="rounded-full w-5 h-5"/>,
-  MongoDB: <SiMongodb className="text-green-500 h-5 w-5" />
+  MongoDB: <SiMongodb className="text-green-500 h-5 w-5" />,
+  Selenium: <SiSelenium className="text-green-600 h-5 w-5"/>
 };

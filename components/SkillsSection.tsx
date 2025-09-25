@@ -33,7 +33,7 @@ const skills = [
       "Vercel",
       "Figma",
       "Postman",
-      "VS Code",
+      "Selenium",
     ],
   },
 ];
